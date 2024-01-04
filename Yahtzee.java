@@ -3,11 +3,11 @@ import java.util.Random;
 import java.util.Scanner;
 public class Yahtzee
 {
-    Die6 dieA;
-    Die6 dieB;
-    Die6 dieC;
-    Die6 dieD;
-    Die6 dieE;
+    private Die6 dieA;
+    private Die6 dieB;
+    private Die6 dieC;
+    private Die6 dieD;
+    private Die6 dieE;
     int number;
     public Yahtzee() {
         dieA = new Die6();
