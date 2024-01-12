@@ -1,3 +1,5 @@
+package New;
+
 public class Die6
 {
     //instance variables - replace the example below with your own
@@ -11,12 +13,12 @@ public class Die6
         value = (int)(Math.random()*6)+1;
     }
     
-    public int getvalue() {
+    public int getValue() {
         return value;
     }
     
     public int rollAndGetValue(){
         roll();
-        return getvalue();
+        return getValue();
     }
 }
